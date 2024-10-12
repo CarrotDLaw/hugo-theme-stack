@@ -157,11 +157,11 @@
         color: var(--accent-color);
         font-weight: 700;
 
-        .icon-tabler-toggle-sun {
+        .icon-tabler-sun {
             display: none;
         }
 
-        .icon-tabler-toggle-moon-stars {
+        .icon-tabler-moon-stars {
             display: unset;
         }
     }
@@ -175,7 +175,7 @@
     cursor: pointer;
     gap: var(--menu-icon-separation);
 
-    .icon-tabler-toggle-moon-stars {
+    .icon-tabler-moon-stars {
         display: none;
     }
 }
