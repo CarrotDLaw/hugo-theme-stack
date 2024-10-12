@@ -35,15 +35,15 @@ article:
 
 notFound:
     title:
-        other: Not Found
+        other: 404 Page Not Found
 
     subtitle:
-        other: This page does not exist
+        other: This page does not exist...
 
 widget:
     archives:
         title:
-            other: Archives
+            other: Posts
 
         more:
             other: More
@@ -67,7 +67,7 @@ search:
 
 footer:
     builtWith:
-        other: Built with {{ .Generator }}
+        other: Powered by {{ .GitLab }}, {{ .Hugo }} and {{ .Netlify }}
 
     designedBy:
-        other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
+        other: Theme {{ .Theme }} designed by {{ .DesignedBy }}, modified by {{ .ModifiedBy }}
