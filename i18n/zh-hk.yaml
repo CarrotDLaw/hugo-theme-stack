@@ -68,7 +68,7 @@ search:
 
 footer:
     builtWith:
-        other: 使用 {{ .GitLab }}、{{ .Hugo }} 與 {{ .Netlify }} 建立
+        other: 使用 {{ .GitHub }}、{{ .Hugo }} 與 {{ .Netlify }} 建立
 
     designedBy:
         other: 主題 {{ .Theme }} 由 {{ .DesignedBy }} 設計，經 {{ .ModifiedBy }} 修改

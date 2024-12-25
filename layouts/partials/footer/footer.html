@@ -20,7 +20,7 @@
   <section class="powerby">
     {{ with .Site.Params.footer.customText }} {{ . | safeHTML }} <br />
     {{ end }} {{- $Generator := `<b
-      ><a href="https://gitlab.com" target="_blank" rel="noopner">GitLab</a></b
+      ><a href="https://github.com" target="_blank" rel="noopner">GitHub</a></b
     >,
     <b><a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a></b>
     and
@@ -28,8 +28,8 @@
       ><a href="https://www.netlify.com/" target="_blank" rel="noopener"
         >Netlify</a
       ></b
-    >` -}} {{- $GitLab := `<b
-      ><a href="https://gitlab.com" target="_blank" rel="noopner">GitLab</a></b
+    >` -}} {{- $GitHub := `<b
+      ><a href="https://github.com" target="_blank" rel="noopner">GitHub</a></b
     >` -}} {{- $Hugo := `<b
       ><a href="https://gohugo.io/" target="_blank" rel="noopner">Hugo</a></b
     >` -}} {{- $Netlify := `<b
@@ -52,7 +52,7 @@
       ><a href="https://github.com/CarrotDLaw" target="_blank" rel="noopener"
         >CarrotDLaw</a
       ></b
-    >` -}} {{ T "footer.builtWith" (dict "Generator" $Generator "GitLab" $GitLab
+    >` -}} {{ T "footer.builtWith" (dict "Generator" $Generator "GitHub" $GitHub
     "Hugo" $Hugo "Netlify" $Netlify) | safeHTML }} <br />
     {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy
     "ModifiedBy" $ModifiedBy) | safeHTML }}

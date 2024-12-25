@@ -67,7 +67,7 @@ search:
 
 footer:
     builtWith:
-        other: Powered by {{ .GitLab }}, {{ .Hugo }} and {{ .Netlify }}
+        other: Powered by {{ .GitHub }}, {{ .Hugo }} and {{ .Netlify }}
 
     designedBy:
         other: Theme {{ .Theme }} designed by {{ .DesignedBy }}, modified by {{ .ModifiedBy }}
