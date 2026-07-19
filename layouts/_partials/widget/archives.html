@@ -4,14 +4,16 @@
 {{- if $query -}}
     {{- $archivesPage := index $query 0 -}}
     <section class="widget archives">
-        <div class="widget-icon">
-            {{ partial "helper/icon" "infinity" }}
+        <div class="widget-header">
+            <div class="widget-icon">
+                {{ partial "helper/icon" "article" }}
+            </div>
+            <h2 class="widget-title section-title" style="margin:0;">
+                <a href="{{ $archivesPage.RelPermalink }}">
+                    {{ T "widget.archives.title" }}
+                </a>
+            </h2>
         </div>
-        <h2 class="widget-title section-title">
-            <a href="{{ $archivesPage.RelPermalink }}">
-                {{ T "widget.archives.title" }}
-            </a>
-        </h2>
 
         {{ $pages := partial "helper/pages.html" $context.Site.Home }}
         {{ $archives := $pages.GroupByDate "2006" }}

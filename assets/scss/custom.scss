@@ -1,1 +1,9 @@
-/* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
+:root {
+    --font-family: 'Gowun Batang', 'LXGW WenKai TC', var(--base-font-family), serif;
+    --heading-font-family: 'Gowun Batang', 'LXGW WenKai TC', var(--base-font-family), serif;
+    --article-font-family: 'Gowun Batang', 'LXGW WenKai TC', var(--base-font-family), serif;
+}
+
+body {
+    font-family: var(--font-family);
+}

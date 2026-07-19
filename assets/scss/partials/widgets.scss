@@ -10,6 +10,56 @@
             color: var(--body-text-color);
         }
     }
+
+    .widget-header  {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+        margin-bottom: calc(var(--spacing-sm) / 1.618);
+    }
+}
+
+.widget.tagCloud {
+    .tagCloud-tags {
+        a[href*="/tags/"] {
+            background: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            border-radius: 0 !important;
+            text-transform: lowercase;
+            font-size: 1.4rem;
+            margin-right: 0;
+            display: inline-flex !important;
+            align-items: center;
+
+            text-decoration: none !important;
+            color: var(--card-text-color-secondary) !important;
+
+            box-shadow: 0px -2px 0px rgba(var(--link-background-color), var(--link-background-opacity)) inset !important;
+            transition: all 0.3s ease !important;
+
+            &::before {
+                content: "#";
+                margin-right: 0.05rem;
+                color: inherit;
+                display: inline-block;
+            }
+
+            &:hover {
+                color: var(--accent-color-darker) !important; /* Turns into theme accent on hover */
+                box-shadow: 0px calc(-1rem * var(--article-line-height)) 0px rgba(var(--link-background-color), var(--link-background-opacity-hover)) inset !important;
+            }
+        }
+    }
+
+    .tagCloud-count {
+        color: var(--card-text-color-secondary); 
+        margin-left: 0.5rem;
+        opacity: 0.8;
+        font-weight: normal;
+        transition: color 0.3s ease;
+    }
 }
 
 /* Tag cloud widget */

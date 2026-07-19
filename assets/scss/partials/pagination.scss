@@ -1,6 +1,7 @@
 .pagination {
     display: flex;
-    @include card-style;
+    justify-content: center;
+    // @include card-style;
     overflow: hidden;
 
     .hide-on-mobile,
@@ -22,7 +23,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex: 1 1 auto;
+        flex: 0 0 auto;
         min-width: 36px;
         color: var(--card-text-color-secondary);
         text-decoration: none;
@@ -44,12 +45,12 @@
         }
 
         &:hover:not(.current):not(.disabled) {
-            background-color: var(--card-background-selected);
+            background-color: none;
             opacity: 0.8;
         }
 
         &.current {
-            background-color: var(--card-background-selected);
+            background-color: none;
             color: var(--card-text-color-main);
             font-weight: bold;
             cursor: default;

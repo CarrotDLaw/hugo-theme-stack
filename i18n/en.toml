@@ -39,7 +39,7 @@ darkMode   = "Dark Mode"
 
 [widget]
     [widget.archives]
-        title = "Archives"
+        title = "Articles"
         more  = "More"
 
     [widget.tagCloud]
