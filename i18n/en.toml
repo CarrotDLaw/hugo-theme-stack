@@ -54,8 +54,10 @@ darkMode   = "Dark Mode"
     resultTitle = "#PAGES_COUNT pages (#TIME_SECONDS seconds)"
 
 [footer]
-    builtWith  = "Built with {{ .Generator }}"
-    designedBy = "Theme {{ .Theme }} designed by {{ .DesignedBy }}"
+    generatorSeparator     = ", "
+    generatorLastSeparator = " and "
+    builtWith              = "Built with {{ .Generator }}"
+    designedBy             = "Theme {{ .Theme }} designed by {{ .DesignedBy }}, modified by {{ .ModifiedBy }}"
 
 [cookies]
     title             = "Cookie Consent"

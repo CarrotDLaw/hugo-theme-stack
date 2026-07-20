@@ -45,8 +45,10 @@ darkMode   = "暗黑模式"
     resultTitle = "找到 #PAGES_COUNT 個結果 (用時 #TIME_SECONDS 秒)"
 
 [footer]
-    builtWith  = "使用 {{ .Generator }} 建立"
-    designedBy = "主題 {{ .Theme }} 由 {{ .DesignedBy }} 設計"
+    generatorSeparator     = "、"
+    generatorLastSeparator = " 與 "
+    builtWith              = "使用 {{ .Generator }} 建立"
+    designedBy             = "主題 {{ .Theme }} 由 {{ .DesignedBy }} 設計，經 {{ .ModifiedBy }} 修改"
 
 [cookies]
     title             = "Cookie 同意"
