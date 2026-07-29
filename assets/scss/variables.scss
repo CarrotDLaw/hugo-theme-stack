@@ -8,10 +8,10 @@
         --main-top-padding: 50px;
     }
 
-    --body-background: #f5f5fa;
+    --body-background: #f0eee9;
 
-    --accent-color: #34495e;
-    --accent-color-darker: #2c3e50;
+    --accent-color: #496174;
+    --accent-color-darker: #212d35;
     --accent-color-text: #fff;
     --body-text-color: #707070;
 
@@ -41,7 +41,7 @@
 *   Card style
 */
 :root {
-    --card-background: #fff;
+    --card-background: hsl(0, 0%, 96.25%);
     --card-background-selected: #eaeaea;
 
     --card-text-color-main: #000;
@@ -96,7 +96,7 @@
 */
 :root {
     --blockquote-border-size: 4px;
-    --blockquote-background-color: rgb(248 248 248);
+    --blockquote-background-color: hsl(0, 0%, 98.25%);
 
     --heading-border-size: 4px;
 
