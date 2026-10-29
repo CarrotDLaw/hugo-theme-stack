@@ -41,7 +41,7 @@
 *   Card style
 */
 :root {
-    --card-background: hsl(0, 0%, 96.25%);
+    --card-background: hsl(0, 0%, 97.5%);
     --card-background-selected: #eaeaea;
 
     --card-text-color-main: #000;
@@ -96,7 +96,7 @@
 */
 :root {
     --blockquote-border-size: 4px;
-    --blockquote-background-color: hsl(0, 0%, 98.25%);
+    --blockquote-background-color: hsl(0, 0%, 100%);
 
     --heading-border-size: 4px;
 
@@ -115,7 +115,7 @@
     --link-background-opacity: 0.5;
     --link-background-opacity-hover: 0.7;
 
-    --code-background-color: rgba(0, 0, 0, 0.12);
+    --code-background-color: hsl(0, 0%, 100%);
     --code-text-color: #808080;
 
     --table-border-color: #dadada;
@@ -150,7 +150,7 @@
 
 [data-scheme="light"] {
     --pre-text-color: #272822;
-    --pre-background-color: #fafafa;
+    --pre-background-color: hsl(0, 0%, 100%);
     @import "partials/highlight/light.scss";
 }
 
