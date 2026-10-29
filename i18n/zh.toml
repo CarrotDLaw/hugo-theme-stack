@@ -10,7 +10,7 @@ darkMode   = "暗黑模式"
     back            = "返回"
     tableOfContents = "目錄"
     relatedContent  = "相關內容"
-    lastUpdatedOn   = "上次改過於"
+    lastUpdatedOn   = "最近更新於"
     readingTime     = "閱讀時間 {{ .Count }} 分鐘"
 
     [article.alert]

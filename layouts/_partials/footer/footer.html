@@ -30,7 +30,7 @@
 
         {{- $Theme := printf `<b><a href="https://github.com/CarrotDLaw/hugo-theme-stack" target="_blank" rel="noopener" data-version="%s">%s</a></b>` $ThemeVersion ($footer.themeName | default "Stack") -}}
         {{- $DesignedBy := $footer.designedBy | default "Jimmy" -}}
-        {{- $ModifiedBy := $footer.modifiedBy | default "CarrotDLaw" -}}
+        {{- $ModifiedBy := $footer.modifiedBy | default "Karrot Lawless" -}}
 
         {{ T "footer.builtWith" (dict "Generator" $Generator) | safeHTML }} <br />
         {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy "ModifiedBy" $ModifiedBy) | safeHTML }}

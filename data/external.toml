@@ -1,3 +1,9 @@
+Typlet = [
+    { src = "https://cdn.jsdelivr.net/npm/typlet@0.2.0/fonts/typlet.css", integrity = "sha384-SHwETgensJJNL8pvHfx0BKLeuPhsizdGr7WS0i/ot7vZo5oc/qSTQ8j7+VNv9LPi", type = "style" },
+    { src = "https://cdn.jsdelivr.net/npm/typlet@0.2.0/dist/typlet.min.js", integrity = "sha384-iNvqOfeE3XNE1oZVMDZefCMB8tMHe2ZDdP1LOtr0dMx1TIF6pYSVIKHIXY0/T2tj", type = "script", defer = true },
+    { src = "https://cdn.jsdelivr.net/npm/typlet@0.2.0/dist/contrib/auto-render.min.js", integrity = "sha384-+Aww2wDWb8pJQdpeOKIs6XtlQhKjs68H8GIk4WBVQ7xfr6HzueXysvl28ejNhN+X", type = "script", defer = true },
+]
+
 KaTeX = [
     { src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css", integrity = "sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV", type = "style" },
     { src = "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js", integrity = "sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8", type = "script", defer = true },
